@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   # Replace with the URL to your FFmpeg static libraries zip file
-  s.source           = { :https => 'github.com/guanweidong/ffmpeg7.0/blob/main/release/download/FFmpegv7.zip' }
+  s.source           = { :http => 'https://github.com/guanweidong/ffmpeg7.0/releases/download/1.0/FFmpegv7.zip' }
 
   s.vendored_libraries = 'FFmpeg-iOS/lib/*.a'
   s.public_header_files = 'FFmpeg-iOS/include/**/*.h'

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 Pod::Spec.new do |s|
-  s.name             = 'FFmpeg'
+  s.name             = 'FFmpegv7'
   s.version          = '7.0.0'
   s.summary          = 'FFmpeg 7.0 static libraries for iOS'
   s.description      = <<-DESC

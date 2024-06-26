@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
     'CLANG_ENABLE_MODULES' => 'No'
   }
 
-  s.dependency 'libz'
+  s.dependency 'z'
 end
 

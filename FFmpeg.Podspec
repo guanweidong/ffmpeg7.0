@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 Pod::Spec.new do |s|
-  s.name             = 'FFmpeg7'
+  s.name             = 'FFmpeg'
   s.version          = '7.0.0'
   s.summary          = 'FFmpeg 7.0 static libraries for iOS'
   s.description      = <<-DESC
@@ -28,7 +28,5 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = {
     'CLANG_ENABLE_MODULES' => 'No'
   }
-
-  s.dependency 'z'
 end
 

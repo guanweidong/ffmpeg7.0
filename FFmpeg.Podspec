@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
     FFmpeg 7.0 compiled as static libraries for iOS, supporting arm64 and x86_64 architectures.
   DESC
-  s.homepage         = 'https://github.com/yourusername/FFmpeg'
+  s.homepage         = 'https://github.com/guanweidong/ffmpeg7.0'
   s.license          = { :type => 'GPL-3.0-or-later' }
   s.author           = { 'Your Name' => 'your@email.com' }
   s.platforms        = { :ios => '13.0' }
